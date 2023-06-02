@@ -14,3 +14,19 @@ void loop()
   else
     digitalWrite(4,LOW);
 }
+
+
+/*void setup() {
+  Serial.begin(9600);
+  Serial.println("Input any number: ");
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if (Serial.available() > 0) {
+    int input = Serial.parseInt();
+    int squaredInput = sq(input);
+    Serial.println(squaredInput);
+  }
+}
+In t*/
